@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background-image: url(./img/itachi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    font-size: 100px;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+}

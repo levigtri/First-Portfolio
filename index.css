@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Montserrat:wght@500&display=swap');
+
+body {
+    color: white;
+    background: linear-gradient(black, gray);
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+display: flex;
+justify-content: space-between;
+align-items: center;
+list-style-type: none; /*tipo de estilo de lista -> none sem os pontos*/
+padding: 16px;
+}
+section li{
+    list-style-type: circle;
+}
+
+header img {
+width: 150px;
+height: 150px;
+border-radius: 150px; /*borda redonda*/
+border: 3px solid rgb(72, 208, 241);
+display: flex;
+align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none; /*tira decoração do texto aquele sublinhado e todo tipo -eu acho*/
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: aqua;
+}
+nav a:hover, section a:hover {
+    color: aqua;
+} /* :hover serve pra mudar a cor de um texto quando passa o cursor por cima*/
+footer img {
+    width: 40px;
+    height: 40px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+margin: 20px;
+text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+html {
+ scroll-behavior: smooth; 
+} 
+/* scroll suave pra página*/
+
+
+
